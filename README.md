@@ -63,30 +63,6 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 - `Use $research-boundary-planner ...`
 - `Use $research-idea-funnel ...`
 
-## Publish And Sync To GitHub
-
-如果目录还不是 Git 仓库，先初始化：
-
-```bash
-git init -b main
-git add .
-git commit -m "Add paper reading and planning skills"
-```
-
-然后绑定远程并推送：
-
-```bash
-git remote add origin git@github.com:<github-user>/<repo>.git
-git push -u origin main
-```
-
-如果你用 HTTPS：
-
-```bash
-git remote add origin https://github.com/<github-user>/<repo>.git
-git push -u origin main
-```
-
 ## Notes
 
 - 每个 skill 都是独立可安装目录，核心说明在 `SKILL.md`
