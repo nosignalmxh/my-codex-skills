@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Code Alignment"
+  short_description: "Align papers with repos and configs"
+  default_prompt: "Use $paper-code-alignment to map this paper to its codebase, locate the training and eval paths, and audit implementation or reproduction gaps."

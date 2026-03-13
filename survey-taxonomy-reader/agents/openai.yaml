@@ -1,0 +1,4 @@
+interface:
+  display_name: "Survey Taxonomy Reader"
+  short_description: "Read surveys with taxonomy and math"
+  default_prompt: "Use $survey-taxonomy-reader to turn this survey into a taxonomy, unified notation table, representative-method comparison, and a math-first reading path."

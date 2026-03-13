@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Deconstruct"
+  short_description: "Deconstruct papers into reusable components"
+  default_prompt: "Use $paper-deconstruct to turn this paper into component cards, a dependency graph, and an Obsidian-friendly structured breakdown."

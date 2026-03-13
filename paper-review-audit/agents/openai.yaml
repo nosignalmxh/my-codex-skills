@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Review Audit"
+  short_description: "Audit papers like a rigorous reviewer"
+  default_prompt: "Use $paper-review-audit to produce a claim-evidence-falsify review report with reviewer questions, weakest links, and minimal falsification tests."
